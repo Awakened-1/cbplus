@@ -1,0 +1,131 @@
+.oneCam {
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+.twoCamsH {
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.Cams2 {
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.Cams3 {
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 2fr 1fr;
+	grid-template-areas: "a a" ". .";
+}
+.Cams3 > .cam:first-child {
+	grid-area: a;
+}
+
+.Cams4 {
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.Cams5 {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 2fr 1fr;
+	grid-template-areas: "a a ." ". . .";
+}
+.Cams5 > .cam:first-child {
+	grid-area: a;
+}
+
+.Cams6 {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: "a a ." "a a ." ". . .";
+}
+.Cams6 > .cam:first-child {
+	grid-area: a;
+}
+
+.Cams9 {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Cams12 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Cams16 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Cams20 {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Cams25 {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Cams30 {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Cams35 {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cam {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: #0C6A93;
+	border: 1px solid #F47321;
+}
+
+
+
+.plusButton {
+	border-radius: 50%;
+	background-color: #F47321;
+	color: #FFFFFF;
+	border: none;
+	padding: 24px 48px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+	outline: none;
+}
+
+.topFrame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.topButton {
+	background-color: rgba(43, 51, 63, 0.7);
+	color: #FFFFFF;
+	border: none;
+	padding: 1px 3px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	outline: none;
+}
+
+div.video-js {
+	background-color: inherit;
+	background-image: inherit;
+}
